@@ -1,0 +1,16 @@
+{
+  "name": "frontend-scaffold-log",
+  "version": "1.0.0",
+  "description": "Prettify log messages based on actions taken in tasks from frontend-scaffold",
+  "main": "index.js",
+  "keywords": [
+    "error",
+    "log",
+    "frontend-scaffold"
+  ],
+  "author": "Martin Hansen <twixier>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-util": "^3.0.7"
+  }
+}
