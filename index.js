@@ -3,7 +3,7 @@
 var util = require('gulp-util');
 
 // Set basic constants
-const PLUGIN_NAME = "Majestix";
+var plugin_name = "Frontend-scaffold-log";
 
 function log (options) {
   var title,
@@ -16,8 +16,8 @@ function log (options) {
     message = options;    
   } else { 
     // options.title
-    // Validate options.title is set, else fallback to PLUGIN_NAME
-    title = (options.title ? options.title : PLUGIN_NAME);
+    // Validate options.title is set, else fallback to plugin_name
+    title = (options.title ? options.title : plugin_name);
 
     // options.message
     message = options.message;
